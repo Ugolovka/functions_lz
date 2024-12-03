@@ -1,6 +1,8 @@
 def sumlist(list):
-    list = [1, 2, 3, 4, 5, 6, 7, 8 ,9 ,10]
+    list = int(list)
     total = sum(list)
     return total
+x = (input(("Введите список: ")))
 
-print(sumlist(sum))
+y = x.split()
+print("Сумма списка: ", sumlist(list))

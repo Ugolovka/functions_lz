@@ -1,7 +1,7 @@
-def temperature(celsius):
-    celsius =float(input())
+def temperature():
+    celsius =float(input("Введите температуру: "))
     fahrenheit = (celsius * 1.8) + 32
     temp = fahrenheit
     return temp
 
-print(temperature(temperature))
+print("Градусов по Фаренгейту: ", temperature())

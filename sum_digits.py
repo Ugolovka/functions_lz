@@ -1,8 +1,8 @@
 def sum_digits(n):
-    n = input()
+    n = input("Введите число: ")
     sum = 0
     for digit in str(n): 
       sum += int(digit)      
     return sum
    
-print(sum_digits(sum))
+print("Сумма цифр: ", sum_digits(sum))
